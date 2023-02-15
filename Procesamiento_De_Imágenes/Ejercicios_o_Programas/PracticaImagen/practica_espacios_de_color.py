@@ -25,9 +25,12 @@ def crear_Histograma_RGB(Imagen, numero):
 
 
 img = cv2.imread('Imagen4.jpg', 1)
-cv2.imshow('ventana_generica', img)
-Colocar_pantalla('ventana_generica')
-cv2.waitKey(0)
+while((cv2.waitKey() & 0xFF) != "q"):
+    cv2.imshow('ventana_generica', img)
+    Colocar_pantalla('ventana_generica')
+
+
+#cv2.waitKey(0)
 crear_Histograma_RGB(img,"1");
 # PRIMER SISTEMA DE COLOR ---> ESCALA DE GRISES
 
@@ -53,3 +56,34 @@ cv2.imshow('ventana_generica', YCRCB);
 Colocar_pantalla('ventana_generica')
 cv2.waitKey(0);
 crear_Histograma_RGB(YCRCB,"4")
+
+
+#CUARTO SISTEMA DE COLOR ---> HLS
+
+
+HLS = cv2.cvtColor(img, cv2.COLOR_RGB2HLS);
+cv2.imshow('ventana_generica', HLS);
+Colocar_pantalla('ventana_generica')
+cv2.waitKey(0);
+
+crear_Histograma_RGB(HLS,"5")
+
+#QUINTO SISTEMA DE COLOR ---> LAB
+
+LAB = cv2.cvtColor(img, cv2.COLOR_RGB2Lab);
+cv2.imshow('ventana_generica', LAB);
+Colocar_pantalla('ventana_generica')
+cv2.waitKey(0);
+crear_Histograma_RGB(LAB,"6")
+
+#SEXTO SISTEMA DE COLOR ---> LUV
+
+LUV = cv2.cvtColor(img, cv2.COLOR_RGB2Luv);
+cv2.imshow('ventana_generica', LUV);
+Colocar_pantalla('ventana_generica')
+cv2.waitKey(0);
+crear_Histograma_RGB(LUV,"7")
+
+
+
+
