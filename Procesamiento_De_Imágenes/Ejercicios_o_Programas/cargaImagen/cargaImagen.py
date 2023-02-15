@@ -41,4 +41,3 @@ cv2.imshow('escaladegrises', src);
 mwnd('escaladegrises')
 cv2.waitKey(0);
 
-cv2.destroyAllWindows(0);
