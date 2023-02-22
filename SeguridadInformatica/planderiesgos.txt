@@ -1,0 +1,46 @@
+ELEMENTOS DE EL PLAN DE SEGURIDAD:
+        ¬matriz de riesgos
+
+        ¬reporte de riesgos
+
+        ¬matriz de segudidad
+
+        ¬reporte de seguridad
+
+        ¬recuperación en caso de desastre:
+
+-----------------------------------------------
+
+    +Analizar los metodos para garantizar la seguridad
+    y confiabilidad de los datos que circulen en la
+    red.
+                                                                            - Integridad - Disponibilidad - Confidencialidad -
+    +Mantener la integridad, disponibilidad, privacidad,
+    control y autenticidad de la informacion manejada a
+    través de la computadora.
+
+-----------------------------------------------
+
+CONFIDENCIALIDAD
+
+Cualidad referente a la no divulgación de información
+a personas no autorizadas.
+
+Disponibilidad
+
+Cualidad que debe de tener la información para estar
+disponible en el lugar y el momento en el que se
+requiere.
+
+Integridad
+
+Cualidad que tiene la información para mantenerse
+inalterada
+
+-----------------------------------------------
+
+
+
+
+
+

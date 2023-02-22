@@ -1,0 +1,4 @@
+un parche consta de cambios que se aplican a un programa
+para corregir errores, agregarle funcionalidad o actualizarlo.
+
+
