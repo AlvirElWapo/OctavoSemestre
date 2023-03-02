@@ -1,0 +1,47 @@
+Tipo 0  Nunca se cambia la información ni se escribe.
+
+
+Tipo 1  No contiene datos históricos, la nueva información sobreescribe a la antigua siempre.
+
+
+Tipo 2  Toda la información histórica se guarda en el DWH, cuando hay un cambio se crea una nueva
+        Ficha con la llave apropiada.
+
+
+Tipo 3  Toda la información histórica puede o no guardarse enn el DWH, se crean nuevas columnas
+        con datos históricos y los actuales son reemplazados por nuevos.
+
+Tipo 4  conocida como
+
+--------------------------------------------------------------------------------------------------------------
+Metodología de Ralph Kimball para el diseño dimensional
+
+1--  Seleccionar el proceso de negocio a modelar.
+2--  Declarar la granularidad de los procesos de negocio, es decir, especificar de manera exacta lo que
+    un renglón de la tabla de hechos representa.
+
+    Ejemplo:    * Una foto diaria de los niveles de inventario para cada producto en un almacén.
+                * Foto mensual para cada cuenta bancaria.
+3--  Elegir las dimensiones que se aplican a cada fila de la tabla de hechos.
+
+    --  Utilizar las mayores descripciones posibles en las dimensiones.
+    --  Si se hace claro el grano, las dimensiones se pueden identificar con mucha facilidad.
+
+4--  Identificar los hechos numéricos que poblarán cada fila de la tabla de hechos.
+    Los hechos están determinaods por
+
+
+
+    EJEMPLO:
+            ¿Cuántos suscriptores hay en la plataforma Netflix en 2021 vs 2023 en el mes de Enero para
+            América vs África??
+                1-- Tiempo | Suscriptor    |   Lugar
+                2-- Tiempo --> Lugar --> Suscriptor.
+                3-- 1.Tiempo
+                        2.Lugar
+                            3.Suscriptor
+--------------------------------------------------------------------------------------------------------------
+
+
+
+

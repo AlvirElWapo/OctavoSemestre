@@ -1,0 +1,72 @@
+Riesgo = Probabilidad X Impacto
+
+Matriz de riesgo:
+    una herramienta de control y de gestión de los procesos.
+
+IDENTIFÍCA:
+    Actividades (procesos y productos)
+    Tipo y nivel de riesgos inherentes a estas actividades
+    Factores exógenos y endógenos relacionados con estos riesgos
+
+-------------------------------------------------------------------------------------
+LENTES
+    Riesgos:
+
+        Se pueden caer;   V, A, R
+        Se pueden romper; V, A, R
+        Se pueden doblar; 0, 0, R
+        Se pueden perder; 0, 0, R
+        Lo pueden robar;  0, A, R
+        Los pueden pisar; V, 0, 0
+        Puede que dejen de servir, por el avance de el padecimiento del usuario;
+        Pérdida de soportes;
+        Desgaste en gral (chasis);
+        Desgaste de lente (cristal);
+        Posible intercambio de lentes (no deseado, accidental);
+        Limpieza;         0,0,R
+
+    Factores:
+
+        Internos:
+            Tu propia persona | empleados.
+        Externos:
+            Mano de obra externa.
+----------------------------------------------------------------------------------
+
+    0   -   1
+apagado - prendido
+    0   -   Vulnerabilidad
+    0   -   Riesgo
+    0   -   Amenaza
+    0|1|x   -   TIEMPO
+    0|1|x   -   COSTO
+    ----    -   DEPARTAMENTO QUE AFECTA
+ _____________________________________
+|       SOLO APLICA SI ES RIESGO      |
+|-------------------------------------|
+|    A(lta)|B(aja)   -   PROBABILIDAD |
+|    1|2|x   -   AMENAZA              |
+|_____________________________________|
+
+
+
+----------------------------------------------------------------------------------
+DEPENDIENTE DEL CONTEXTO DE CADA ACTIVO;
+
+
+----------------------------------------------------------------------------------
+
+MATRIZ DE SEGURIDAD:
+
+---CRONOGRAMA DE ACTIVIDADES.
+    ---ENCONTRAR ACTIVIDADES PERMANENTES(logging, análisis de logs, etc).
+    ---ENCONTRAR ACTIVIDADES CONSTANTES.
+    ---DEBE TENER UN COSTO DE ACTIVIDAD...
+    ---DEBE TENER UN TIEMPO DE EFECTO.
+    ---SE DEBE CONSIDERAR HORAS TRABAJADOR--> INFLUYE EN COBRAR TU TRABAJO.
+    ---SE DEBE TOMAR EN CUENTA LA NECESIDAD DE EXTERNOS PARA LAS ACTIVIDADES.
+---REPORTE DE SEGURIDAD
+    ---CODIFICAR---> Cambiar valores numéricos con cosas interpretables(dibujos, etc)
+    ---COSTO
+    ---TIEMPO DE RECUPERACIÓN
+
