@@ -1,0 +1,1 @@
+IF(Lower[nombre_promocion]) = "dos por uno";2x1;[nombre_promocion]
